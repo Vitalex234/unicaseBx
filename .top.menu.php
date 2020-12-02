@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"My Account", 
+		"#", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Wishlist", 
+		"#", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"My Cart", 
+		"#", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Checkout", 
+		"#", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Login", 
+		"#", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
