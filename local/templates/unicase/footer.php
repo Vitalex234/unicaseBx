@@ -249,7 +249,12 @@
             </div>
         </div>
     </div>
-    <? echo "changes in footer on master site"; ?>
+
+    <? echo "changes in footer on master site"; ?> <br>
+    <? echo "changes in footer number two on master site"; ?>
+    <br>
+    <? echo "changes in footer number three on dev site"; ?>
+
 </footer>
 <!-- ============================================================= FOOTER : END============================================================= -->
 
