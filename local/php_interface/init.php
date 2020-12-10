@@ -4,7 +4,7 @@ use Bitrix\Main\SystemException;
 
 function pr($param, $die = false) {
     echo '<pre>';
-    var_dump($param);
+    print_r($param);
     echo '</pre>';
     if ($die) die();
 }

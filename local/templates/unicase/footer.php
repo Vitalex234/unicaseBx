@@ -1,18 +1,17 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
-123
 <!-- ============================================================= FOOTER ============================================================= -->
 <footer id="footer" class="footer color-bg">
-    <div class="links-social inner-top-sm">
+
+    <div class="footer-bottom inner-bottom-sm">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <!-- ============================================================= CONTACT INFO ============================================================= -->
+                <div class="col-xs-12 col-sm-6 col-md-3 links-social">
                     <div class="contact-info">
                         <div class="footer-logo">
                             <div class="logo">
                                 <a href="home.html">
 
-                                    <img src="assets/images/logo.png" alt="">
+                                    <img src="/local/templates/unicase/images/logo.png" alt="">
 
                                 </a>
                             </div><!-- /.logo -->
@@ -20,7 +19,7 @@
                         </div><!-- /.footer-logo -->
 
                         <div class="module-body m-t-20">
-                            <p class="about-us"> Nam libero tempore, cum soluta nobis est ses  eligendi optio cumque cum soluta nobis est ses  eligendi optio cumque.</p>
+                            <p class="about-us"> Мы работаем с людьми и для людей. Мы создаем увлекательный мир мобильных коммуникаций и новых предложений, которые понятны и доступны каждому. Мы обеспечиваем простоту, удобство и возможность привлекательного выбора.</p>
 
                             <div class="social-icons">
 
@@ -33,81 +32,60 @@
                             </div><!-- /.social-icons -->
                         </div><!-- /.module-body -->
 
-                    </div><!-- /.contact-info -->
-                    <!-- ============================================================= CONTACT INFO : END ============================================================= -->            	</div><!-- /.col -->
+                    </div>
+                </div><!-- /.col -->
 
                 <div class="col-xs-12 col-sm-6 col-md-3">
-                    <!-- ============================================================= CONTACT TIMING============================================================= -->
+                    <div class="module-heading outer-bottom-xs">
+                        <h4 class="module-title">Меню</h4>
+                    </div><!-- /.module-heading -->
+
+                    <div class="module-body">
+                        <?$APPLICATION->IncludeComponent(
+                            "bitrix:menu",
+                            "footer_menu",
+                            Array(
+                                "ALLOW_MULTI_SELECT" => "N",
+                                "CHILD_MENU_TYPE" => "",
+                                "DELAY" => "N",
+                                "MAX_LEVEL" => "1",
+                                "MENU_CACHE_GET_VARS" => array(""),
+                                "MENU_CACHE_TIME" => "3600",
+                                "MENU_CACHE_TYPE" => "N",
+                                "MENU_CACHE_USE_GROUPS" => "Y",
+                                "ROOT_MENU_TYPE" => "main",
+                                "USE_EXT" => "Y"
+                            )
+                        );?>
+
+                    </div><!-- /.module-body -->
+                </div><!-- /.col -->
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="contact-timing">
                         <div class="module-heading">
-                            <h4 class="module-title">opening time</h4>
+                            <h4 class="module-title">Режим работы</h4>
                         </div><!-- /.module-heading -->
 
                         <div class="module-body outer-top-xs">
                             <div class="table-responsive">
                                 <table class="table">
                                     <tbody>
-                                    <tr><td>Monday-Friday:</td><td class="pull-right">08.00 To 18.00</td></tr>
-                                    <tr><td>Saturday:</td><td class="pull-right">09.00 To 20.00</td></tr>
-                                    <tr><td>Sunday:</td><td class="pull-right">10.00 To 20.00</td></tr>
+                                    <tr><td>Пн - Пт:</td><td class="pull-right">с 08.00 до 18.00</td></tr>
+                                    <tr><td>Суббота:</td><td class="pull-right">с 09.00 до 20.00</td></tr>
+                                    <tr><td>Воскресенье:</td><td class="pull-right">с 10.00 до 20.00</td></tr>
                                     </tbody>
                                 </table>
                             </div><!-- /.table-responsive -->
-                            <p class='contact-number'>Hot Line:(400)888 868 848</p>
+                            <p class='contact-number'>Горячая линия:(800)888 868 848</p>
                         </div><!-- /.module-body -->
-                    </div><!-- /.contact-timing -->
-                    <!-- ============================================================= CONTACT TIMING : END ============================================================= -->            	</div><!-- /.col -->
+                    </div>
+                </div><!-- /.col -->
 
                 <div class="col-xs-12 col-sm-6 col-md-3">
-                    <!-- ============================================================= LATEST TWEET============================================================= -->
-                    <div class="latest-tweet">
-                        <div class="module-heading">
-                            <h4 class="module-title">latest tweet</h4>
-                        </div><!-- /.module-heading -->
-
-                        <div class="module-body outer-top-xs">
-                            <div class="re-twitter">
-                                <div class="comment media">
-                                    <div class='pull-left'>
-                    <span class="icon fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                    </span>
-                                    </div>
-                                    <div class="media-body">
-                                        <a href="#">@laurakalbag</a> As a result of your previous recommendation :)
-                                        <span class="time">
-                        12 hours ago
-                    </span>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="re-twitter">
-                                <div class="comment media">
-                                    <div class='pull-left'>
-                    <span class="icon fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                    </span>
-                                    </div>
-                                    <div class="media-body">
-                                        <a href="#">@laurakalbag</a> As a result of your previous recommendation :)
-                                        <span class="time">
-                        12 hours ago
-                    </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- /.module-body -->
-                    </div><!-- /.contact-timing -->
-                    <!-- ============================================================= LATEST TWEET : END ============================================================= -->            	</div><!-- /.col -->
-
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <!-- ============================================================= INFORMATION============================================================= -->
                     <div class="contact-information">
                         <div class="module-heading">
-                            <h4 class="module-title">information</h4>
+                            <h4 class="module-title">Контакты</h4>
                         </div><!-- /.module-heading -->
 
                         <div class="module-body outer-top-xs">
@@ -120,7 +98,7 @@
                     </span>
                                     </div>
                                     <div class="media-body">
-                                        <p>868 Any Stress,Burala Casi,Picasa USA.</p>
+                                        <p>г. Иваново, Ивановская наб. д. 32</p>
                                     </div>
                                 </li>
 
@@ -132,7 +110,7 @@
                     </span>
                                     </div>
                                     <div class="media-body">
-                                        <p>(400) 0888 888 888<br>(400) 888 888 888</p>
+                                        <p>(800) 0888 888 888<br>(800) 888 888 888</p>
                                     </div>
                                 </li>
 
@@ -151,77 +129,7 @@
 
                             </ul>
                         </div><!-- /.module-body -->
-                    </div><!-- /.contact-timing -->
-                    <!-- ============================================================= INFORMATION : END ============================================================= -->            	</div><!-- /.col -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </div><!-- /.links-social -->
-
-    <div class="footer-bottom inner-bottom-sm">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="module-heading outer-bottom-xs">
-                        <h4 class="module-title">category</h4>
-                    </div><!-- /.module-heading -->
-
-                    <div class="module-body">
-                        <ul class='list-unstyled'>
-                            <li><a href="#">Order History</a></li>
-                            <li><a href="#">Returns</a></li>
-                            <li><a href="#">Libero Sed rhoncus</a></li>
-                            <li><a href="#">Venenatis augue tellus</a></li>
-                            <li><a href="#">My Vouchers</a></li>
-                        </ul>
-                    </div><!-- /.module-body -->
-                </div><!-- /.col -->
-
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="module-heading outer-bottom-xs">
-                        <h4 class="module-title">my account</h4>
-                    </div><!-- /.module-heading -->
-
-                    <div class="module-body">
-                        <ul class='list-unstyled'>
-                            <li><a href="#">My Account</a></li>
-                            <li><a href="#">Customer Service</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Site Map</a></li>
-                            <li><a href="#">Search Terms</a></li>
-                        </ul>
-                    </div><!-- /.module-body -->
-                </div><!-- /.col -->
-
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="module-heading outer-bottom-xs">
-                        <h4 class="module-title">our services</h4>
-                    </div><!-- /.module-heading -->
-
-                    <div class="module-body">
-                        <ul class='list-unstyled'>
-                            <li><a href="#">Order History</a></li>
-                            <li><a href="#">Returns</a></li>
-                            <li><a href="#">Libero Sed rhoncus</a></li>
-                            <li><a href="#">Venenatis augue tellus</a></li>
-                            <li><a href="#">My Vouchers</a></li>
-                        </ul>
-                    </div><!-- /.module-body -->
-                </div><!-- /.col -->
-
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="module-heading outer-bottom-xs">
-                        <h4 class="module-title">help & support</h4>
-                    </div><!-- /.module-heading -->
-
-                    <div class="module-body">
-                        <ul class='list-unstyled'>
-                            <li><a href="#">Knowledgebase</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Contact Support</a></li>
-                            <li><a href="#">Marketplace Blog</a></li>
-                            <li><a href="#">About Unicase</a></li>
-                        </ul>
-                    </div><!-- /.module-body -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -231,30 +139,14 @@
         <div class="container">
             <div class="col-xs-12 col-sm-6 no-padding">
                 <div class="copyright">
-                    Copyright © 2014
+                    Copyright © 2020
                     <a href="home.html">Unicase Shop.</a>
                     - All rights Reserved
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 no-padding">
-                <div class="clearfix payment-methods">
-                    <ul>
-                        <li><img src="assets/images/payments/1.png" alt=""></li>
-                        <li><img src="assets/images/payments/2.png" alt=""></li>
-                        <li><img src="assets/images/payments/3.png" alt=""></li>
-                        <li><img src="assets/images/payments/4.png" alt=""></li>
-                        <li><img src="assets/images/payments/5.png" alt=""></li>
-                    </ul>
-                </div><!-- /.payment-methods -->
-            </div>
+
         </div>
     </div>
-
-    <? echo "changes in footer on master site"; ?> <br>
-    <? echo "changes in footer number two on master site"; ?>
-    <br>
-    <? echo "changes in footer number three on dev site"; ?>
-
 </footer>
 <!-- ============================================================= FOOTER : END============================================================= -->
 

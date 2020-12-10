@@ -802,349 +802,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
                 </section><!-- /.section -->
                 <!-- ============================================== BLOG SLIDER : END ============================================== -->
 
-                <!-- ============================================== FEATURED PRODUCTS ============================================== -->
-                <section class="section wow fadeInUp">
-                    <h3 class="section-title">New Arrivals</h3>
-                    <div class="owl-carousel home-owl-carousel custom-carousel owl-theme outer-top-xs">
 
-                        <div class="item item-carousel">
-                            <div class="products">
-
-                                <div class="product">
-                                    <div class="product-image">
-                                        <div class="image">
-                                            <a href="detail.html"><img  src="assets/images/blank.gif" data-echo="assets/images/products/6.jpg" alt=""></a>
-                                        </div><!-- /.image -->
-
-                                        <div class="tag new"><span>new</span></div>
-                                    </div><!-- /.product-image -->
-
-
-                                    <div class="product-info text-left">
-                                        <h3 class="name"><a href="detail.html">Nokia Lumia 520</a></h3>
-                                        <div class="rating rateit-small"></div>
-                                        <div class="description"></div>
-
-                                        <div class="product-price">
-				<span class="price">
-					$650.99				</span>
-                                            <span class="price-before-discount">$ 800</span>
-
-                                        </div><!-- /.product-price -->
-
-                                    </div><!-- /.product-info -->
-                                    <div class="cart clearfix animate-effect">
-                                        <div class="action">
-                                            <ul class="list-unstyled">
-                                                <li class="add-cart-button btn-group">
-                                                    <button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-                                                        <i class="fa fa-shopping-cart"></i>
-                                                    </button>
-                                                    <button class="btn btn-primary" type="button">Add to cart</button>
-
-                                                </li>
-
-                                                <li class="lnk wishlist">
-                                                    <a class="add-to-cart" href="detail.html" title="Wishlist">
-                                                        <i class="icon fa fa-heart"></i>
-                                                    </a>
-                                                </li>
-
-                                                <li class="lnk">
-                                                    <a class="add-to-cart" href="detail.html" title="Compare">
-                                                        <i class="fa fa-retweet"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div><!-- /.action -->
-                                    </div><!-- /.cart -->
-                                </div><!-- /.product -->
-
-                            </div><!-- /.products -->
-                        </div><!-- /.item -->
-
-                        <div class="item item-carousel">
-                            <div class="products">
-
-                                <div class="product">
-                                    <div class="product-image">
-                                        <div class="image">
-                                            <a href="detail.html"><img  src="assets/images/blank.gif" data-echo="assets/images/products/2.jpg" alt=""></a>
-                                        </div><!-- /.image -->
-
-                                        <div class="tag new"><span>new</span></div>
-                                    </div><!-- /.product-image -->
-
-
-                                    <div class="product-info text-left">
-                                        <h3 class="name"><a href="detail.html">Samsung Galaxy S4</a></h3>
-                                        <div class="rating rateit-small"></div>
-                                        <div class="description"></div>
-
-                                        <div class="product-price">
-				<span class="price">
-					$650.99				</span>
-                                            <span class="price-before-discount">$ 800</span>
-
-                                        </div><!-- /.product-price -->
-
-                                    </div><!-- /.product-info -->
-                                    <div class="cart clearfix animate-effect">
-                                        <div class="action">
-                                            <ul class="list-unstyled">
-                                                <li class="add-cart-button btn-group">
-                                                    <button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-                                                        <i class="fa fa-shopping-cart"></i>
-                                                    </button>
-                                                    <button class="btn btn-primary" type="button">Add to cart</button>
-
-                                                </li>
-
-                                                <li class="lnk wishlist">
-                                                    <a class="add-to-cart" href="detail.html" title="Wishlist">
-                                                        <i class="icon fa fa-heart"></i>
-                                                    </a>
-                                                </li>
-
-                                                <li class="lnk">
-                                                    <a class="add-to-cart" href="detail.html" title="Compare">
-                                                        <i class="fa fa-retweet"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div><!-- /.action -->
-                                    </div><!-- /.cart -->
-                                </div><!-- /.product -->
-
-                            </div><!-- /.products -->
-                        </div><!-- /.item -->
-
-                        <div class="item item-carousel">
-                            <div class="products">
-
-                                <div class="product">
-                                    <div class="product-image">
-                                        <div class="image">
-                                            <a href="detail.html"><img  src="assets/images/blank.gif" data-echo="assets/images/products/2.jpg" alt=""></a>
-                                        </div><!-- /.image -->
-
-                                        <div class="tag hot"><span>hot</span></div>
-                                    </div><!-- /.product-image -->
-
-
-                                    <div class="product-info text-left">
-                                        <h3 class="name"><a href="detail.html">Samsung Galaxy S4</a></h3>
-                                        <div class="rating rateit-small"></div>
-                                        <div class="description"></div>
-
-                                        <div class="product-price">
-				<span class="price">
-					$650.99				</span>
-                                            <span class="price-before-discount">$ 800</span>
-
-                                        </div><!-- /.product-price -->
-
-                                    </div><!-- /.product-info -->
-                                    <div class="cart clearfix animate-effect">
-                                        <div class="action">
-                                            <ul class="list-unstyled">
-                                                <li class="add-cart-button btn-group">
-                                                    <button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-                                                        <i class="fa fa-shopping-cart"></i>
-                                                    </button>
-                                                    <button class="btn btn-primary" type="button">Add to cart</button>
-
-                                                </li>
-
-                                                <li class="lnk wishlist">
-                                                    <a class="add-to-cart" href="detail.html" title="Wishlist">
-                                                        <i class="icon fa fa-heart"></i>
-                                                    </a>
-                                                </li>
-
-                                                <li class="lnk">
-                                                    <a class="add-to-cart" href="detail.html" title="Compare">
-                                                        <i class="fa fa-retweet"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div><!-- /.action -->
-                                    </div><!-- /.cart -->
-                                </div><!-- /.product -->
-
-                            </div><!-- /.products -->
-                        </div><!-- /.item -->
-
-                        <div class="item item-carousel">
-                            <div class="products">
-
-                                <div class="product">
-                                    <div class="product-image">
-                                        <div class="image">
-                                            <a href="detail.html"><img  src="assets/images/blank.gif" data-echo="assets/images/products/1.jpg" alt=""></a>
-                                        </div><!-- /.image -->
-
-                                        <div class="tag hot"><span>hot</span></div>
-                                    </div><!-- /.product-image -->
-
-
-                                    <div class="product-info text-left">
-                                        <h3 class="name"><a href="detail.html">Sony Ericson Vaga</a></h3>
-                                        <div class="rating rateit-small"></div>
-                                        <div class="description"></div>
-
-                                        <div class="product-price">
-				<span class="price">
-					$650.99				</span>
-                                            <span class="price-before-discount">$ 800</span>
-
-                                        </div><!-- /.product-price -->
-
-                                    </div><!-- /.product-info -->
-                                    <div class="cart clearfix animate-effect">
-                                        <div class="action">
-                                            <ul class="list-unstyled">
-                                                <li class="add-cart-button btn-group">
-                                                    <button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-                                                        <i class="fa fa-shopping-cart"></i>
-                                                    </button>
-                                                    <button class="btn btn-primary" type="button">Add to cart</button>
-
-                                                </li>
-
-                                                <li class="lnk wishlist">
-                                                    <a class="add-to-cart" href="detail.html" title="Wishlist">
-                                                        <i class="icon fa fa-heart"></i>
-                                                    </a>
-                                                </li>
-
-                                                <li class="lnk">
-                                                    <a class="add-to-cart" href="detail.html" title="Compare">
-                                                        <i class="fa fa-retweet"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div><!-- /.action -->
-                                    </div><!-- /.cart -->
-                                </div><!-- /.product -->
-
-                            </div><!-- /.products -->
-                        </div><!-- /.item -->
-
-                        <div class="item item-carousel">
-                            <div class="products">
-
-                                <div class="product">
-                                    <div class="product-image">
-                                        <div class="image">
-                                            <a href="detail.html"><img  src="assets/images/blank.gif" data-echo="assets/images/products/4.jpg" alt=""></a>
-                                        </div><!-- /.image -->
-
-                                        <div class="tag sale"><span>sale</span></div>
-                                    </div><!-- /.product-image -->
-
-
-                                    <div class="product-info text-left">
-                                        <h3 class="name"><a href="detail.html">LG Smart Phone LP68</a></h3>
-                                        <div class="rating rateit-small"></div>
-                                        <div class="description"></div>
-
-                                        <div class="product-price">
-				<span class="price">
-					$650.99				</span>
-                                            <span class="price-before-discount">$ 800</span>
-
-                                        </div><!-- /.product-price -->
-
-                                    </div><!-- /.product-info -->
-                                    <div class="cart clearfix animate-effect">
-                                        <div class="action">
-                                            <ul class="list-unstyled">
-                                                <li class="add-cart-button btn-group">
-                                                    <button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-                                                        <i class="fa fa-shopping-cart"></i>
-                                                    </button>
-                                                    <button class="btn btn-primary" type="button">Add to cart</button>
-
-                                                </li>
-
-                                                <li class="lnk wishlist">
-                                                    <a class="add-to-cart" href="detail.html" title="Wishlist">
-                                                        <i class="icon fa fa-heart"></i>
-                                                    </a>
-                                                </li>
-
-                                                <li class="lnk">
-                                                    <a class="add-to-cart" href="detail.html" title="Compare">
-                                                        <i class="fa fa-retweet"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div><!-- /.action -->
-                                    </div><!-- /.cart -->
-                                </div><!-- /.product -->
-
-                            </div><!-- /.products -->
-                        </div><!-- /.item -->
-
-                        <div class="item item-carousel">
-                            <div class="products">
-
-                                <div class="product">
-                                    <div class="product-image">
-                                        <div class="image">
-                                            <a href="detail.html"><img  src="assets/images/blank.gif" data-echo="assets/images/products/3.jpg" alt=""></a>
-                                        </div><!-- /.image -->
-
-                                        <div class="tag sale"><span>sale</span></div>
-                                    </div><!-- /.product-image -->
-
-
-                                    <div class="product-info text-left">
-                                        <h3 class="name"><a href="detail.html">Apple Iphone 5s 32GB</a></h3>
-                                        <div class="rating rateit-small"></div>
-                                        <div class="description"></div>
-
-                                        <div class="product-price">
-				<span class="price">
-					$650.99				</span>
-                                            <span class="price-before-discount">$ 800</span>
-
-                                        </div><!-- /.product-price -->
-
-                                    </div><!-- /.product-info -->
-                                    <div class="cart clearfix animate-effect">
-                                        <div class="action">
-                                            <ul class="list-unstyled">
-                                                <li class="add-cart-button btn-group">
-                                                    <button class="btn btn-primary icon" data-toggle="dropdown" type="button">
-                                                        <i class="fa fa-shopping-cart"></i>
-                                                    </button>
-                                                    <button class="btn btn-primary" type="button">Add to cart</button>
-
-                                                </li>
-
-                                                <li class="lnk wishlist">
-                                                    <a class="add-to-cart" href="detail.html" title="Wishlist">
-                                                        <i class="icon fa fa-heart"></i>
-                                                    </a>
-                                                </li>
-
-                                                <li class="lnk">
-                                                    <a class="add-to-cart" href="detail.html" title="Compare">
-                                                        <i class="fa fa-retweet"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div><!-- /.action -->
-                                    </div><!-- /.cart -->
-                                </div><!-- /.product -->
-
-                            </div><!-- /.products -->
-                        </div><!-- /.item -->
-                    </div><!-- /.home-owl-carousel -->
-                </section><!-- /.section -->
-                <!-- ============================================== FEATURED PRODUCTS : END ============================================== -->
 
             </div><!-- /.homebanner-holder -->
             <!-- ============================================== CONTENT : END ============================================== -->
@@ -1152,73 +810,67 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
         <!-- ============================================== BRANDS CAROUSEL ============================================== -->
         <div id="brands-carousel" class="logo-slider wow fadeInUp">
 
-            <h3 class="section-title">Our Brands</h3>
-            <div class="logo-slider-inner">
-                <div id="brand-slider" class="owl-carousel brand-slider custom-carousel owl-theme">
-                    <div class="item m-t-15">
-                        <a href="#" class="image">
-                            <img data-echo="assets/images/brands/brand1.png" src="assets/images/blank.gif" alt="">
-                        </a>
-                    </div><!--/.item-->
-
-                    <div class="item m-t-10">
-                        <a href="#" class="image">
-                            <img data-echo="assets/images/brands/brand2.png" src="assets/images/blank.gif" alt="">
-                        </a>
-                    </div><!--/.item-->
-
-                    <div class="item">
-                        <a href="#" class="image">
-                            <img data-echo="assets/images/brands/brand3.png" src="assets/images/blank.gif" alt="">
-                        </a>
-                    </div><!--/.item-->
-
-                    <div class="item">
-                        <a href="#" class="image">
-                            <img data-echo="assets/images/brands/brand4.png" src="assets/images/blank.gif" alt="">
-                        </a>
-                    </div><!--/.item-->
-
-                    <div class="item">
-                        <a href="#" class="image">
-                            <img data-echo="assets/images/brands/brand5.png" src="assets/images/blank.gif" alt="">
-                        </a>
-                    </div><!--/.item-->
-
-                    <div class="item">
-                        <a href="#" class="image">
-                            <img data-echo="assets/images/brands/brand6.png" src="assets/images/blank.gif" alt="">
-                        </a>
-                    </div><!--/.item-->
-
-                    <div class="item">
-                        <a href="#" class="image">
-                            <img data-echo="assets/images/brands/brand2.png" src="assets/images/blank.gif" alt="">
-                        </a>
-                    </div><!--/.item-->
-
-                    <div class="item">
-                        <a href="#" class="image">
-                            <img data-echo="assets/images/brands/brand4.png" src="assets/images/blank.gif" alt="">
-                        </a>
-                    </div><!--/.item-->
-
-                    <div class="item">
-                        <a href="#" class="image">
-                            <img data-echo="assets/images/brands/brand1.png" src="assets/images/blank.gif" alt="">
-                        </a>
-                    </div><!--/.item-->
-
-                    <div class="item">
-                        <a href="#" class="image">
-                            <img data-echo="assets/images/brands/brand5.png" src="assets/images/blank.gif" alt="">
-                        </a>
-                    </div><!--/.item-->
-                </div><!-- /.owl-carousel #logo-slider -->
-            </div><!-- /.logo-slider-inner -->
-
-        </div><!-- /.logo-slider -->
+            <h3 class="section-title">Бренды</h3>
+            <?$APPLICATION->IncludeComponent(
+                "bitrix:news.list",
+                "brands_on_main",
+                Array(
+                    "ACTIVE_DATE_FORMAT" => "d.m.Y",
+                    "ADD_SECTIONS_CHAIN" => "N",
+                    "AJAX_MODE" => "N",
+                    "AJAX_OPTION_ADDITIONAL" => "",
+                    "AJAX_OPTION_HISTORY" => "N",
+                    "AJAX_OPTION_JUMP" => "N",
+                    "AJAX_OPTION_STYLE" => "Y",
+                    "CACHE_FILTER" => "N",
+                    "CACHE_GROUPS" => "Y",
+                    "CACHE_TIME" => "36000000",
+                    "CACHE_TYPE" => "A",
+                    "CHECK_DATES" => "Y",
+                    "DETAIL_URL" => "",
+                    "DISPLAY_BOTTOM_PAGER" => "N",
+                    "DISPLAY_DATE" => "N",
+                    "DISPLAY_NAME" => "N",
+                    "DISPLAY_PICTURE" => "Y",
+                    "DISPLAY_PREVIEW_TEXT" => "N",
+                    "DISPLAY_TOP_PAGER" => "N",
+                    "FIELD_CODE" => array("", ""),
+                    "FILTER_NAME" => "",
+                    "HIDE_LINK_WHEN_NO_DETAIL" => "N",
+                    "IBLOCK_ID" => "4",
+                    "IBLOCK_TYPE" => "Brands",
+                    "INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+                    "INCLUDE_SUBSECTIONS" => "N",
+                    "MESSAGE_404" => "",
+                    "NEWS_COUNT" => "20",
+                    "PAGER_BASE_LINK_ENABLE" => "N",
+                    "PAGER_DESC_NUMBERING" => "N",
+                    "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+                    "PAGER_SHOW_ALL" => "N",
+                    "PAGER_SHOW_ALWAYS" => "N",
+                    "PAGER_TEMPLATE" => "",
+                    "PAGER_TITLE" => "Новости",
+                    "PARENT_SECTION" => "",
+                    "PARENT_SECTION_CODE" => "",
+                    "PREVIEW_TRUNCATE_LEN" => "",
+                    "PROPERTY_CODE" => array("", ""),
+                    "SET_BROWSER_TITLE" => "N",
+                    "SET_LAST_MODIFIED" => "N",
+                    "SET_META_DESCRIPTION" => "N",
+                    "SET_META_KEYWORDS" => "N",
+                    "SET_STATUS_404" => "N",
+                    "SET_TITLE" => "N",
+                    "SHOW_404" => "N",
+                    "SORT_BY1" => "ACTIVE_FROM",
+                    "SORT_BY2" => "SORT",
+                    "SORT_ORDER1" => "DESC",
+                    "SORT_ORDER2" => "ASC",
+                    "STRICT_SECTION_CHECK" => "N"
+                )
+            );?>
+            <!-- /.logo-slider -->
         <!-- ============================================== BRANDS CAROUSEL : END ============================================== -->
+    </div>
     </div>
 
 

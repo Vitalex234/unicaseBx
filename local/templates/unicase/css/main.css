@@ -285,6 +285,10 @@ img[src="assets/images/blank.gif"] {
 .outer-bottom-xs {
   margin-bottom: 40px;
 }
+
+.module-heading.outer-bottom-xs {
+  margin-bottom: 30px;
+}
 .outer-bottom-small {
   margin-bottom: 50px;
 }
@@ -2868,7 +2872,6 @@ a {
   font-size: 13px;
 }
 .footer .links-social {
-  border-top: 1px solid #e5e5e5;
   font-size: 12px;
   line-height: 18px;
   color: #666666;
@@ -2913,7 +2916,7 @@ a {
   color: #555555;
 }
 .footer .contact-timing .table tbody tr {
-  border-bottom: 1px solid #e1e1e1;
+  border-bottom: 1px solid #292929;
 }
 .footer .contact-timing .table tbody tr td {
   border-top: none;
